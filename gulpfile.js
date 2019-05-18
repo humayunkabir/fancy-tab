@@ -1,3 +1,6 @@
+/* eslint-disable */
+
+
 const fs = require('fs');
 const path = require('path');
 const url = require('url');
@@ -61,7 +64,7 @@ const PATHS = {
       DEST: 'docs/',
     },
     RAW: {
-      SRC: 'pug/_mixins.pug',
+      SRC: 'pug/_zion-owl-carousel.pug',
       DEST: 'dist/pug/',
     },
   },

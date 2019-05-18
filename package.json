@@ -1,6 +1,6 @@
 {
-  "name": "create-fancy-plugin",
-  "version": "0.1.4",
+  "name": "fancy-tab",
+  "version": "1.0.0",
   "description": "Create Fancy Plugin",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "babel-plugin-transform-es2015-modules-strip": "^0.1.1",
     "babel-plugin-transform-strict-mode": "^6.24.1",
     "babel-preset-env": "^1.7.0",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.5",
     "del": "^4.1.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
@@ -51,6 +51,7 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
+    "owl.carousel": "^2.3.4",
     "pretty": "^2.0.0",
     "prismjs": "^1.16.0"
   },

@@ -1,0 +1,144 @@
+block append variables
+  -
+    var pageHeader = {
+      title: 'FancyTab',
+      description: 'These modular elements can be readily used and customized in every layout across pages.',
+      url: 'https://github.com/humayunkabir/create-fancy-plugin',
+      linkText: 'See on GitHub'
+    }
+block append styles
+
+
+
+mixin documentation
+  .card.mb-3
+    .card-header
+      h5.mb-1 Example
+      p.mb-0
+        | Add class 
+        code .active
+        |  to 
+        code .nav-bar-item.px-3.px-sm-4
+        |  and corresponding 
+        code .tab-content
+        |  which you want to show after page loading.
+    .card-body.bg-light.overflow-hidden
+      +componentCard
+        .fancy-tab
+          .nav-bar.nav-bar-center
+            .nav-bar-item.px-3.px-sm-4.active
+              span.fas.fa-home.fs-2
+              div.mt-1 Home
+            .nav-bar-item.px-3.px-sm-4
+              span.fas.fa-user-circle.fs-2
+              div.mt-1 Profile
+            .nav-bar-item.px-3.px-sm-4
+              span.fas.fa-cog.fs-2
+              div.mt-1 Settings
+          .tab-contents
+            .tab-content.active
+              p.lead
+                | Duis ac facilisis mauris. Pellentesque leo tortor, maximus sed gravida dapibus, suscipit non nisi. Duis ultrices diam a maximus imperdiet. Nam eu purus a erat tristique ornare. Donec condimentum tristique diam eu congue.
+            .tab-content
+              p.lead
+                | Nullam sed tempus mauris, vitae pretium nibh. Nam pretium diam id massa mollis pretium. Aenean lacus massa, tristique id mauris ac, sollicitudin auctor neque. Cras laoreet nunc nibh, ac tristique orci rutrum quis. Nam luctus, sapien ligula finibus turpis.
+            .tab-content
+              p.lead
+                | Vestibulum convallis diam id nibh tempus, ac scelerisque nulla congue. Cras laoreet nunc nibh, ac tristique orci rutrum quis. Sed eu tellus pharetra, scelerisque nulla in, vehicula libero. Curabitur interdum nec metus ante sed luctus.
+             
+  .row.no-gutters
+    .col-xl-6.pr-xl-2
+      .card.mb-3
+        .card-header
+          h5.mb-1 Left Align
+          p.mb-0
+            | Left align position is the default position. So no class is needed to add.
+        .card-body.bg-light.overflow-hidden
+          +componentCard
+            .fancy-tab
+              .nav-bar
+                .nav-bar-item.px-3.px-sm-4.active Home
+                .nav-bar-item.px-3.px-sm-4 Profile
+                .nav-bar-item.px-3.px-sm-4 Settings
+
+              .tab-contents
+                .tab-content.active
+                  p.lead
+                    | Duis ac facilisis mauris. Pellentesque leo tortor, maximus sed gravida dapibus, suscipit non nisi. Duis ultrices diam a maximus imperdiet. Nam eu purus a erat tristique ornare. Donec condimentum tristique diam eu congue.
+
+                .tab-content
+                  p.lead
+                    | Nullam sed tempus mauris, vitae pretium nibh. Nam pretium diam id massa mollis pretium. Aenean lacus massa, tristique id mauris ac, sollicitudin auctor neque. Cras laoreet nunc nibh, ac tristique orci rutrum quis. Nam luctus, sapien ligula finibus turpis.
+
+                .tab-content
+                  p.lead
+                    | Vestibulum convallis diam id nibh tempus, ac scelerisque nulla congue. Cras laoreet nunc nibh, ac tristique orci rutrum quis. Sed eu tellus pharetra, scelerisque nulla in, vehicula libero. Curabitur interdum nec metus ante sed luctus.
+    .col-xl-6.pl-xl-2      
+      .card.mb-3
+        .card-header
+          h5.mb-1 Center  Align
+          p.mb-0
+            | Add class 
+            code .nav-bar-center
+            |  to 
+            code .nav-bar
+            |  for fancy-tab position and 
+            code .text-center
+            |  to 
+            code .tab-contents
+            |  for content position.
+        .card-body.bg-light.overflow-hidden
+          +componentCard
+            .fancy-tab
+              .nav-bar.nav-bar-center
+                .nav-bar-item.px-3.px-sm-4.active Home
+                .nav-bar-item.px-3.px-sm-4 Profile
+                .nav-bar-item.px-3.px-sm-4 Settings
+
+              .tab-contents
+                .tab-content.active
+                  p.lead
+                    | Duis ac facilisis mauris. Pellentesque leo tortor, maximus sed gravida dapibus, suscipit non nisi. Duis ultrices diam a maximus imperdiet. Nam eu purus a erat tristique ornare. Donec condimentum tristique diam eu congue.
+
+                .tab-content
+                  p.lead
+                    | Nullam sed tempus mauris, vitae pretium nibh. Nam pretium diam id massa mollis pretium. Aenean lacus massa, tristique id mauris ac, sollicitudin auctor neque. Cras laoreet nunc nibh, ac tristique orci rutrum quis. Nam luctus, sapien ligula finibus turpis.
+
+                .tab-content
+                  p.lead
+                    | Vestibulum convallis diam id nibh tempus, ac scelerisque nulla congue. Cras laoreet nunc nibh, ac tristique orci rutrum quis. Sed eu tellus pharetra, scelerisque nulla in, vehicula libero. Curabitur interdum nec metus ante sed luctus.
+              
+    .col-xl-6.pr-xl-2
+      .card.mb-3
+        .card-header
+          h5.mb-1 Right  Align
+          p.mb-0
+            | Add class 
+            code .nav-bar-right
+            |  to 
+            code .nav-bar
+            |  for fancy-tab position and 
+            code .text-right
+            |  to 
+            code .tab-contents
+            |  for content position.
+        .card-body.bg-light.overflow-hidden
+          +componentCard
+            .fancy-tab
+              .nav-bar.nav-bar-right
+                .nav-bar-item.px-3.px-sm-4.active Home
+                .nav-bar-item.px-3.px-sm-4 Profile
+                .nav-bar-item.px-3.px-sm-4 Settings
+
+              .tab-contents
+                .tab-content.active
+                  p.lead
+                    | Duis ac facilisis mauris. Pellentesque leo tortor, maximus sed gravida dapibus, suscipit non nisi. Duis ultrices diam a maximus imperdiet. Nam eu purus a erat tristique ornare. Donec condimentum tristique diam eu congue.
+
+                .tab-content
+                  p.lead
+                    | Nullam sed tempus mauris, vitae pretium nibh. Nam pretium diam id massa mollis pretium. Aenean lacus massa, tristique id mauris ac, sollicitudin auctor neque. Cras laoreet nunc nibh, ac tristique orci rutrum quis. Nam luctus, sapien ligula finibus turpis.
+
+                .tab-content
+                  p.lead
+                    | Vestibulum convallis diam id nibh tempus, ac scelerisque nulla congue. Cras laoreet nunc nibh, ac tristique orci rutrum quis. Sed eu tellus pharetra, scelerisque nulla in, vehicula libero. Curabitur interdum nec metus ante sed luctus.
