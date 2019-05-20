@@ -49,4 +49,34 @@ html(lang='en')
 
           .card.shadow-sm.mb-3
             .card-body
-              +documentation
+              .card.mb-3
+                .card-header.bg-light
+                  +fancytab-with-icon-doc
+                .card-body.overflow-hidden
+                  +componentCard
+                    +fancytab-with-icon
+                        
+              .row.no-gutters
+                .col-12
+                  .card.mb-3
+                    .card-header.bg-light
+                      +fancy-tab-left-doc
+                    .card-body.overflow-hidden
+                      +componentCard
+                        +fancy-tab-left
+                .col-12      
+                  .card.mb-3
+                    .card-header.bg-light
+                      +fancy-tab-center-doc
+                    .card-body.overflow-hidden
+                      +componentCard
+                        +fancy-tab-center
+                          
+                .col-12
+                  .card.mb-3
+                    .card-header.bg-light
+                      +fancy-tab-right-doc
+                    .card-body.overflow-hidden
+                      +componentCard
+                        +fancy-tab-right
+

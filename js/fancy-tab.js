@@ -6,9 +6,9 @@ $(document).ready(() => {
   const $fancyTabs = $('.fancy-tab');
   if ($fancyTabs.length) {
     const Selector = {
-      TAB_BAR: '.nav-bar',
-      TAB_BAR_ITEM: '.nav-bar-item',
-      TAB_CONTENTS: '.tab-contents',
+      TAB_BAR: '.fancy-bar',
+      TAB_BAR_ITEM: '.fancy-bar-item',
+      TAB_CONTENTS: '.fancy-tab-contents',
     };
     const ClassName = {
       ACTIVE: 'active',
