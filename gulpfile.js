@@ -64,7 +64,7 @@ const PATHS = {
       DEST: 'docs/',
     },
     RAW: {
-      SRC: 'pug/_zion-owl-carousel.pug',
+      SRC: `pug/_${name}.pug`,
       DEST: 'dist/pug/',
     },
   },
@@ -110,7 +110,7 @@ gulp.task('js', () => gulp.src(PATHS.JS.SRC)
     plugins: [
       process.env.PLUGINS && 'transform-es2015-modules-strip',
       '@babel/plugin-proposal-object-rest-spread',
-      'transform-strict-mode',
+      '@babel/plugin-transform-strict-mode',
     ].filter(Boolean),
   }))
   .pipe(gulp.dest(PATHS.JS.DEST.DIST))

@@ -1,7 +1,7 @@
 {
   "name": "fancy-tab",
   "version": "1.0.0",
-  "description": "Create Fancy Plugin",
+  "description": "These modular elements can be readily used and customized in every layout across pages.",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
@@ -9,29 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/humayunkabir/create-fancy-plugin.git"
+    "url": "git+https://github.com/humayunkabir/fancy-tab.git"
   },
   "keywords": [
     "fancy",
     "fancy-plugin",
     "create-plugin",
-    "create-fancy-plugin",
+    "fancy-tab",
     "plugin"
   ],
   "author": "Humayun kabir",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/humayunkabir/create-fancy-plugin/issues"
+    "url": "https://github.com/humayunkabir/fancy-tab/issues"
   },
-  "homepage": "https://humayunkabir.github.io/create-fancy-plugin/",
+  "homepage": "https://humayunkabir.github.io/fancy-tab/",
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.4.3",
+    "@babel/plugin-transform-strict-mode": "^7.2.0",
     "@babel/preset-env": "^7.4.3",
     "ansi": "^0.3.1",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-es2015-modules-strip": "^0.1.1",
-    "babel-plugin-transform-strict-mode": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.26.5",
     "del": "^4.1.0",
